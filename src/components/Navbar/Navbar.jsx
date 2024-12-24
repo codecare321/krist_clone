@@ -57,7 +57,7 @@ function Navbar() {
         <RiSearchLine size={20} />
         <CiHeart size={20} />
         <FaCartShopping size={20} />
-        <Button className="bg-black rounded-lg px-8 ml-6">Login</Button>
+        <Button className="bg-black rounded-lg px-8 ml-6 p-2">Login</Button>
       </div>
     </div>
   );

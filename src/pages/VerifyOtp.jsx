@@ -96,7 +96,10 @@ function VerifyOtp() {
                 title="Password Changed Successfully"
                 subtitle="Your password has been updated successfully."
                 actions={
-                  <Button onClick={handleBackToLogin} className="rounded-lg">
+                  <Button
+                    onClick={handleBackToLogin}
+                    className="rounded-lg text-white bg-black p-2"
+                  >
                     Back to Login
                   </Button>
                 }

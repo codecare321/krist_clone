@@ -3,6 +3,8 @@ import WomenImage from "../assets/signInImage.png";
 import Button from "../components/Button/Button";
 import ShopCard from "../components/Card/ShopCard";
 import BestSeller from "../components/Card/BestSeller";
+import Deals from "../components/Card/Deals";
+import CustomerReview from "../components/Card/CustomerReview";
 
 function HomePage() {
   return (
@@ -25,8 +27,8 @@ function HomePage() {
               UPTO 40% OFF
             </span>
           </div>
-          <div className=" flex items-center justify-start mt-6 px-20">
-            <Button className="flex items-center bg-black text-white text-sm font-light rounded-lg hover:bg-gray-800">
+          <div className="gap-1 flex items-center justify-start mt-6 px-20">
+            <Button className="p-2 flex items-center bg-black text-white text-sm font-light rounded-lg hover:bg-gray-800">
               Shop Now
               <FaArrowRight className="ml-2 text-white" size={12} />
             </Button>
@@ -52,7 +54,9 @@ function HomePage() {
 
       <ShopCard />
       <BestSeller />
-      
+      <Deals />
+
+      <CustomerReview />
 
       <div className="mb-40"></div>
     </>

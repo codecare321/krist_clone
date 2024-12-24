@@ -81,7 +81,7 @@ function LoginPage() {
               </Link>
             </div>
             <Button
-              className="rounded-lg shadow-md w-full bg-black mt-8 h-12 text-md"
+              className="rounded-lg shadow-md w-full bg-black mt-8 h-12 text-white text-md"
               type="submit"
             >
               Sign In

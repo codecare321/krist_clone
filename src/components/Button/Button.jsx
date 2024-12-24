@@ -7,15 +7,16 @@ const Button = ({
   textColor = "white",
   className = "",
   type = "button",
+  padding = "",
   ...props
 }) => {
   return (
     <button
       onClick={onClick}
       type={type}
-      className={`py-2 px-4 ${className} bg-${backgroundColor} ${
+      className={`bg-${backgroundColor} ${
         textColor === "black" ? "text-black" : `text-${textColor}`
-      }`}
+      } ${padding} ${className}`}
       {...props}
     >
       {children}
@@ -30,6 +31,7 @@ Button.propTypes = {
   textColor: PropTypes.string,
   className: PropTypes.string,
   type: PropTypes.string,
+  padding: PropTypes.string,
 };
 
 export default Button;

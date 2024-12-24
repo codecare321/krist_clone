@@ -68,7 +68,7 @@ function ForgotPassword() {
 
               <Button
                 onClick={() => navigate("/verifyOtp")}
-                className="rounded-lg shadow-md w-full bg-black mt-8 h-12  text-md "
+                className="rounded-lg shadow-md w-full text-white bg-black mt-8 h-12  text-md "
                 type="submit"
               >
                 Send Otp
