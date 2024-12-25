@@ -36,7 +36,10 @@ function Deals() {
         </div>
 
         <div>
-          <Button className="mt-10 p-4 flex items-center bg-black text-white text-md font-light rounded-lg hover:bg-gray-800">
+          <Button
+            onClick={() => {}}
+            className="mt-10 p-4 flex items-center bg-black text-white text-md font-light rounded-lg hover:bg-gray-800"
+          >
             View All Products
             <FaArrowRight className="ml-2 text-white" size={12} />
           </Button>

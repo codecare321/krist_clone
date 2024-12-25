@@ -8,6 +8,7 @@ import ForgotPassword from "./pages/ForgotPassword";
 import VerifyOtp from "./pages/VerifyOtp";
 import Navbar from "./components/Navbar/Navbar";
 import HomePage from "./pages/HomePage";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/homePage" element={<HomePage />} />
           </Routes>
         </div>
+        <Footer />
       </Router>
     </>
   );

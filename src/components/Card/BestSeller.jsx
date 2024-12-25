@@ -34,9 +34,10 @@ function BestSeller() {
                   </button>
                 </div>
               </div>
-              
+
               <div className="group absolute left-5 bottom-5 z-10 text-white w-[calc(100%-40px)] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <Button
+                onClick={()=>{}}
                   backgroundColor="white"
                   textColor="black"
                   className="rounded-lg w-full p-0 m-0 hover:scale-110 transition-transform bg-white"

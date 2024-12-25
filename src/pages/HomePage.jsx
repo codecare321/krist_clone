@@ -5,6 +5,7 @@ import ShopCard from "../components/Card/ShopCard";
 import BestSeller from "../components/Card/BestSeller";
 import Deals from "../components/Card/Deals";
 import CustomerReview from "../components/Card/CustomerReview";
+import InstagramStories from "../components/Card/InstagramStories";
 
 function HomePage() {
   return (
@@ -28,7 +29,10 @@ function HomePage() {
             </span>
           </div>
           <div className="gap-1 flex items-center justify-start mt-6 px-20">
-            <Button className="p-2 flex items-center bg-black text-white text-sm font-light rounded-lg hover:bg-gray-800">
+            <Button
+              onClick={() => {}}
+              className="p-2 flex items-center bg-black text-white text-sm font-light rounded-lg hover:bg-gray-800"
+            >
               Shop Now
               <FaArrowRight className="ml-2 text-white" size={12} />
             </Button>
@@ -57,6 +61,8 @@ function HomePage() {
       <Deals />
 
       <CustomerReview />
+
+      <InstagramStories />
 
       <div className="mb-40"></div>
     </>
