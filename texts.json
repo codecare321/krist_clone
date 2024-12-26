@@ -1,0 +1,24 @@
+{
+  "homepage": {
+    "title": "",
+    "subtitle": "Discover amazing content and features",
+    "ctaButton": "Learn More"
+  },
+  "aboutUs": {
+    "header": "About Us",
+    "description": "We are a tech-driven company focusing on innovative solutions."
+  },
+  "footer": {
+    "contact": "Contact us at: support@example.com",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "product": {
+    "header": "Shop",
+    "allProducts": "All Products",
+    "specificProduct": "Women Texttured Handheld Bag",
+    "title": "Product",
+    "subtitle": "Discover amazing content and features",
+    "ctaButton": "Learn More"
+  }
+}
