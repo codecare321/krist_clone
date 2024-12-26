@@ -4,6 +4,7 @@ import LogoImage from "../../assets/logo.png";
 import { CiHeart } from "react-icons/ci";
 import { FaCartShopping, FaChevronDown } from "react-icons/fa6";
 import Button from "../Button/Button";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -45,6 +46,11 @@ function Navbar() {
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
                   Kids
                 </li>
+                <Link to="/AllProducts">
+                  <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                    All Proucts
+                  </li>
+                </Link>
               </ul>
             )}
           </li>

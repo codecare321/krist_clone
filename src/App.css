@@ -1,0 +1,17 @@
+/* Tailwind custom slider handle color */
+.custom-slider .p-slider-handle {
+  background-color: black !important; /* Tailwind's blue-600 color */
+  border-color: black !important; /* Set border to blue-600 */
+}
+.custom-slider .p-slider-range {
+  background-color: #000000 !important; /* Black color for the track */
+}
+
+.custom-slider .p-slider-handle:hover {
+  background-color: #1d4ed8 !important; /* Tailwind blue-500 color */
+}
+
+/* Optional: Remove the outline when the slider handle is focused */
+.custom-slider .p-slider-handle:focus {
+  outline: none !important;
+}

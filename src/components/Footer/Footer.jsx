@@ -94,7 +94,7 @@ function Footer() {
               <FaCcMastercard size={30} />
               <FaGooglePay
                 className="bg-white h-[23px] w-[30px] mt-1 p-1 rounded-sm text-black flex items-center justify-center"
-                size={30} // Adjusted size to match other icons
+                size={30} 
               />
               <FaCcAmex size={30} />
               <FaCcPaypal size={30} />
